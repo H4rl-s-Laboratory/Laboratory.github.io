@@ -1,9 +1,14 @@
 .jacobscorner {
   margin: 1rem;
   padding: 1rem;
-  background: #77EAC0;
-  border: 1px solid black;
+  background: #ffffff;
+  border: 1rem solid #77EAC0;
 }
-h1 {
-align-items: center;
+
+.jacobscorner:hover {
+  margin: 1rem;
+  padding: 1rem;
+  background: #77EAC0;
+  border-radius: 1rem;
+  border: 1rem solid #77EAC0;
 }
