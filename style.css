@@ -1,1 +1,6 @@
-<!--Input CSS here-->
+.jacobscorner {
+  margin: 1rem;
+  padding: 1rem;
+  background: #77EAC0;
+  border: 1px solid black;
+}
