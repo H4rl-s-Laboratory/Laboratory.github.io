@@ -3,15 +3,19 @@
   padding: 1rem;
   background: #ffffff;
   border: 1rem solid #77EAC0;
-  border-radius: 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #77EAC0;
 }
 
 .jacobscorner:hover {
   background: #77EAC0;
+  color: #ffffff;
 }
 
 .jacobscorner:active {
   background: #ffffff;
+  color: #77EAC0;
 }
 
 h1 {
