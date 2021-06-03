@@ -1,35 +1,70 @@
+:root{
+    --BG: lightblue;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: #ffffff;
+    background: var(--BG);
 }
 
-.jacobscorner {
+.button {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    /*background: lightblue;*/
+    text-align: center;
+}
+
+.jacob {
   font-family: sans-serif;
-  margin-bottom: 3rem auto;
-  margin-right: 2rem auto;
+  margin-left: 0;
+  margin-right: 15%;
   padding: 0.75rem;
-  background: #ffffff;
+  background: var(--BG);
   border: 2px solid #000000;
   text-decoration: none;
   color: #000000;
 }
 
 
-.jacobscorner:hover {
+.jacob:hover {
   background: #000000;
-  color: #ffffff;
+  color: var(--BG);
 }
 
-.jacobscorner:active {
-  background: #ffffff;
+.jacob:active {
+  background: var(--BG);
   color: #000000;
 }
- 
-h1 {
-  margin-bottom: 1rem;
-  text-align: center;
+
+
+.oscar {
+  font-family: sans-serif;
+  margin-left: 15%;
+  margin-right: 0;
+  padding: 0.75rem;
+  background: var(--BG);
+  border: 2px solid #000000;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.oscar:hover {
+  background: #000000;
+  color: var(--BG);
+}
+
+.oscar:active {
+  background: var(--BG);
+  color: #000000;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 }
