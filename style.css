@@ -9,7 +9,10 @@ body {
 
 .jacobscorner {
   font-family: sans-serif;
-  margin: 3rem auto;
+  margin-top: 3rem auto;
+  margin-bottom: 3rem auto;
+  margin-right: 2rem auto;
+  margin-left: 2rem auto;
   padding: 0.75rem;
   background: #ffffff;
   border: 2px solid #000000;
@@ -17,13 +20,18 @@ body {
   color: #000000;
 }
 
-.jacobscorner:active {
+
+.jacobscorner:hover {
   background: #000000;
   color: #ffffff;
 }
 
-h1 {
+.jacobscorner:active {
+  background: #ffffff;
   color: #000000;
+}
+
+h1 {
   margin-bottom: 1rem;
   margin-top: 1rem;
   text-align: center;
