@@ -1,70 +1,91 @@
 :root{
-    --BG: lightblue;
+    --BG: #add7e5;
+    --footerColor: #86bed1;
 }
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    text-align: center;
     background: var(--BG);
 }
 
-.button {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    /*background: lightblue;*/
-    text-align: center;
+.corner {
+    margin-bottom: calc(10vh + 1.5em);
+}
+
+.corners {
+    font-family: 'Megrim';
+    color: #000000;
+    text-decoration: none;
+    background: var(--BG);
+    border: 2px solid #000000;
+    border-radius: 0.75em; 
+    padding: 0.5em;
+}
+
+.corners:hover {
+    color: var(--BG);
+    background: #000000;
+}
+
+.corners:active {
+    color: #000000;
+    background: var(--BG);
 }
 
 .jacob {
-  font-family: sans-serif;
-  margin-left: 0;
-  margin-right: 15%;
-  padding: 0.75rem;
-  background: var(--BG);
-  border: 2px solid #000000;
-  text-decoration: none;
-  color: #000000;
+    float: unset;
 }
-
-
-.jacob:hover {
-  background: #000000;
-  color: var(--BG);
-}
-
-.jacob:active {
-  background: var(--BG);
-  color: #000000;
-}
-
 
 .oscar {
-  font-family: sans-serif;
-  margin-left: 15%;
-  margin-right: 0;
-  padding: 0.75rem;
-  background: var(--BG);
-  border: 2px solid #000000;
-  text-decoration: none;
-  color: #000000;
-}
-
-
-.oscar:hover {
-  background: #000000;
-  color: var(--BG);
-}
-
-.oscar:active {
-  background: var(--BG);
-  color: #000000;
+    float: unset;
 }
 
 h1{
+    font-size: 5em;
+    font-family: 'Megrim';
+    font-weight: lighter;
     text-align: center;
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Megrim';
+    margin-top: 15vh;
+}
+
+.footer {
+    height: 10em;
+    width: 100%;
+    background: var(--BG);
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        text-align: unset;
+    }
+
+    .corner {
+        margin: 0;
+    }
+
+    .corners {
+        margin: 0;
+    }
+
+    .jacob {
+        margin-left: 20vw;
+        float: left;
+    }
+
+    .oscar {
+        margin-right: 20vw;
+        float: right;
+    }
 }
